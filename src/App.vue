@@ -1,3 +1,9 @@
+<script setup>
+import Navbar from './components/navbar.vue'
+</script>
+
 <template>
-  <div>Material Kit Practice</div>
+  <Navbar></Navbar>
 </template>
+
+<style></style>
