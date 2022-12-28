@@ -10,10 +10,11 @@
       <div>
         <span class="txt_darkgray margin_l_15 font_weight_5">Material Kit 2 PRO</span>
       </div>
-      <div class="flex_row">
+      <div class="flex_row gap_10">
         <NavbarLink 
           :imgLeft="'/img/icon_layout.png'" 
-          :imgRight="'https://demos.creative-tim.com/material-kit-pro/assets/img/down-arrow-dark.svg'">
+          :imgRight="'https://demos.creative-tim.com/material-kit-pro/assets/img/down-arrow-dark.svg'"
+        >
           Pages
         </NavbarLink>
         <NavbarLink 
@@ -35,7 +36,7 @@
           Docs
         </NavbarLink>
 
-        <button class="bg_primary txt_white border_radius_5 padding_x_15">BUY NOW</button>
+        <button class="bg_primary txt_white border_radius_5 padding_x_15 padding_y_10">BUY NOW</button>
         
       </div>
     </CardWhite>

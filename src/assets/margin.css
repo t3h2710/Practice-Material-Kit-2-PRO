@@ -1,0 +1,35 @@
+.margin_auto {
+  margin: auto;
+}
+.margin_b_10 {
+  margin-bottom: 10px;
+}
+.margin_l_15 {
+  margin-left: 15px;
+}
+.margin_t_nagative {
+  margin-top: -64px;
+  z-index: 1;
+  position: relative;
+}
+.margin_x_20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.margin_t_30 {
+  margin-top: 30px;
+}
+.margin_y_48 {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.margin_r_48 {
+  margin-right: 48px;
+}
+.margin_b_48 {
+  margin-bottom: 48px;
+}
+.margin_x_75 {
+  margin-right: 75px;
+  margin-left: 75px;
+}

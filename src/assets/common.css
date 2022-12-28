@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+button {
+  border: none;
+  background-color: none;
+}
+a {
+  text-decoration: none;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.border_radius_5 {
+  border-radius: 5px;
+}
+
+
+
+.icon {
+}
+
+.navbar .icon {
+  width: 20px;
+}
+
+.navbar a {
+  margin: 0 10px;
+}
+/* .layer_index_1{
+  z-index: 1;
+} */
+
+
+
+

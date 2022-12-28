@@ -1,5 +1,5 @@
 <script setup>
-import Navbar from './Navbar.vue'
+
 </script>
 <template>
   <div class="bg_pink position_relative">

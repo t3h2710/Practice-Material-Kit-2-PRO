@@ -1,0 +1,30 @@
+.padding_t_16 {
+  padding-top: 16px;
+}
+.padding_x_10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.padding_y_10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.padding_y_15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.padding_x_15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.padding_16 {
+  padding: 16px;
+}
+.padding_x_24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.padding_y_48 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}

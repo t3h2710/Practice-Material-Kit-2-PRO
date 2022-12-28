@@ -9,5 +9,6 @@
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 2px 12px 0 rgb(0 0 0 / 16%);
+    backdrop-filter: saturate(200%) blur(30px);
   }
 </style>
