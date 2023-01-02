@@ -4,15 +4,27 @@
 .width_mainintro {
   max-width: 1140px;
 }
+.width_card_pink {
+  max-width: 294px;
+}
 .width_cardNo {
   width: 33%
 }
 .width_FS {
   width: 820px
 }
+.width_full {
+  width: 100%;
+}
 .width_half {
-  width: 50%
+  width: 50%;
 }
 .width_quarter {
   width: 25%;
+}
+.width_three_quarter {
+  width: 75%;
+}
+.width_one_third {
+  width: 33.333%
 }

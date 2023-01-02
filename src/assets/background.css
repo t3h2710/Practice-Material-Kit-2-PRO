@@ -1,6 +1,12 @@
 .bg_primary {
   background-color: #e63673;
 }
+.bg_light {
+  background-color: #f8b3ca;
+}
 .bg_white {
   background-color: white;
+}
+.bg_transparent {
+  background-color: transparent;
 }

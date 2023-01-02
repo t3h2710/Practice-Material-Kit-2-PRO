@@ -5,7 +5,7 @@
   <div class="bg_pink position_relative">
     <div class="txt_center margin_auto width_mainintro flex_col flex_justify_center position_absolute">
       <h1 class="txt_white fontsz_7">Material Kit 2 PRO</h1>
-      <p class="txt_white fontsz_3 line_height_4 width_p">Start the Development With A Bootstrap 5 Design System inspired by Material Design.</p>
+      <p class="txt_white fontsz_3 line_height_4 width_p margin_y_15">Start the Development With A Bootstrap 5 Design System inspired by Material Design.</p>
     </div>
   </div>
 </template>

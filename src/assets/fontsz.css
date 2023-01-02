@@ -1,3 +1,7 @@
+.fontsz_a {
+  font-size: 12px;
+}
+
 .fontsz_1 {
   font-size: 16px;
 }
@@ -7,6 +11,13 @@
 .fontsz_3 {
   font-size: 20px;
 }
+.fontsz_4 {
+  font-size: 28px;
+}
+.fontsz_5 {
+  font-size: 32px;
+}
+
 .fontsz_7 {
   font-size: 48px;
 }

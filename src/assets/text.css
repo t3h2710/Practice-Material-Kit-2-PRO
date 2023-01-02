@@ -7,9 +7,15 @@
 .txt_primary {
   color: #e63673;
 }
+.txt_darkpink {
+  color: #cc084b;
+}
 .txt_white {
   color: white;
 }
 .txt_center {
   text-align: center;
+}
+.txt_p {
+  color: #d9d9d9;
 }

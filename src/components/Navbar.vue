@@ -1,11 +1,12 @@
 <script setup>
   import CardWhite from './CardWhite.vue'
   import NavbarLink from './NavbarLink.vue';
+  import Button from './Button.vue';
 
 </script>
 
 <template>
-  <div class="navbar padding_t_16 ">
+  <div class="navbar padding_y_16 ">
     <CardWhite class="flex flex_space_between flex_align_center padding_x_15 padding_y_10 max_width_card margin_auto">
       <div>
         <span class="txt_darkgray margin_l_15 font_weight_5">Material Kit 2 PRO</span>
@@ -35,9 +36,7 @@
         >
           Docs
         </NavbarLink>
-
-        <button class="bg_primary txt_white border_radius_5 padding_x_15 padding_y_10">BUY NOW</button>
-        
+        <Button>BUY NOW</Button>        
       </div>
     </CardWhite>
     
@@ -52,4 +51,13 @@
   z-index: 100;
   width: 100%;
 }
+
+.navbar .icon {
+  width: 20px;
+}
+
+.navbar a {
+  margin: 0 10px;
+}
+
 </style>
