@@ -8,10 +8,10 @@ import CardBorder from './CardBorder.vue';
       <CardBorder
         :bgColor="'four'"
         :useShadow="false"
-        :icon="'bi bi-clock'"
-        :txtColor1="''"
-        :txtColor2="''"
-        :txtColor3="''"
+        :icon="'bi bi-clock txt_lightgray'"
+        :txtColor1="'txt_darkgray'"
+        :txtColor2="'txt_lightgray'"
+        :txtColor3="'txt_lightgray'"
       >
         <template #note>1 day ago</template>
         <template #title>Nick Willever</template>
@@ -21,10 +21,10 @@ import CardBorder from './CardBorder.vue';
       <CardBorder
         :bgColor="'main'"
         :useShadow="true"
-        :icon="'bi bi-clock'"
-        :txtColor1="''"
-        :txtColor2="''"
-        :txtColor3="''"
+        :icon="'bi bi-clock txt_white'"
+        :txtColor1="'txt_white'"
+        :txtColor2="'txt_white'"
+        :txtColor3="'txt_white'"
       >
         <template #note>1 week ago</template>
         <template #title>Shailesh Kushwaha</template>
@@ -34,10 +34,10 @@ import CardBorder from './CardBorder.vue';
       <CardBorder
         :bgColor="'four'"
         :useShadow="false"
-        :icon="'bi bi-clock'"
-        :txtColor1="''"
-        :txtColor2="''"
-        :txtColor3="''"
+        :icon="'bi bi-clock txt_lightgray'"
+        :txtColor1="'txt_darkgray'"
+        :txtColor2="'txt_lightgray'"
+        :txtColor3="'txt_lightgray'"
       >
         <template #note>3 weeks ago</template>
         <template #title>Samuel Kamuli</template>
