@@ -12,7 +12,7 @@
 <style>
 
 .bg_pink{
-  background-image: -webkit-linear-gradient(90deg,rgba(236, 65, 122, 0.45) 0,rgb(216, 27, 96,0.65) 180%), url('https://demos.creative-tim.com/material-kit-pro/assets/img/bg0.jpg');
+  background-image: -webkit-linear-gradient(90deg,rgba(236, 65, 122, 0.45) 0,rgba(216, 27, 96,0.65) 180%), url('https://demos.creative-tim.com/material-kit-pro/assets/img/bg0.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

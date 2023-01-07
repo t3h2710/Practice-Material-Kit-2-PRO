@@ -42,7 +42,8 @@ import Button from './Button.vue';
 </template>
 <style>
 .account_page {
-  background-image: url(https://demos.creative-tim.com/material-kit-pro/assets/img/shapes/pattern-lines.svg), linear-gradient(195deg,#42424a,#191919);
+  background-image: linear-gradient(195deg,rgba(66, 66, 74, 0.5),rgba(25, 25, 25, 0.5)), url(https://demos.creative-tim.com/material-kit-pro/assets/img/shapes/pattern-lines.svg);
+  background-color: #313135;
 }
 .right_col >* {
   width: 33.33%;

@@ -39,11 +39,16 @@
 .margin_t_30 {
   margin-top: 30px;
 }
+.margin_l_50 {
+  margin-left: 50px;
+}
 .margin_y_48 {
   margin-top: 48px;
   margin-bottom: 48px;
 }
-
+.margin_t_48 {
+  margin-top: 48px;
+}
 .margin_r_48 {
   margin-right: 48px;
 }

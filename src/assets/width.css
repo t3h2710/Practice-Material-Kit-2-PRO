@@ -7,6 +7,9 @@
 .width_card_pink {
   max-width: 294px;
 }
+.max_width_txt_section {
+  max-width: 522px;
+}
 .width_cardNo {
   width: 33%
 }

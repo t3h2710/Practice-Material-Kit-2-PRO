@@ -44,6 +44,12 @@
 .padding_16 {
   padding: 16px;
 }
+.padding_l_20 {
+  padding-left: 20px;
+}
+.padding_r_20 {
+  padding-right: 20px;
+}
 .padding_x_24 {
   padding-left: 24px;
   padding-right: 24px;
@@ -74,4 +80,11 @@
 .padding_b_96 {
   padding-bottom: 96px;
 
+}
+.padding_l_96 {
+  padding-left: 96px;
+}
+.padding_y_96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }

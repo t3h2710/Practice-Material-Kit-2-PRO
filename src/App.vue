@@ -11,12 +11,12 @@ import InputAreas from './components/F3InputAreas.vue'
 import AttentionCatchers from './components/F4AttentionCatchers.vue'
 import Elements from './components/F5Elements.vue'
 import AccountSection from './components/AccountSection.vue'
-
-
-
-
-
 import CodePageSection from './components/CodePageSection.vue'
+import PresentationPages from './components/PresentationPages.vue'
+import ComplexSection from './components/ComplexSection.vue'
+import GuideLineSection from './components/GuideLineSection.vue'
+import Pr from './components/Pr.vue'
+import CX from './components/CX.vue'
 
 </script>
 
@@ -35,6 +35,12 @@ import CodePageSection from './components/CodePageSection.vue'
       <Elements></Elements>
       <AccountSection></AccountSection>
       <CodePageSection></CodePageSection>
+      <PresentationPages></PresentationPages>
+      <ComplexSection class="margin_t_48"></ComplexSection>
+      <GuideLineSection class="margin_t_15"></GuideLineSection>
+      <Pr></Pr>
+      <CX></CX>
+
 
     
     </CardWhite>
