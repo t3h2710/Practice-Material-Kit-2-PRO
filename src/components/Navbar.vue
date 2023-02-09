@@ -13,26 +13,26 @@
       </div>
       <div class="flex_row gap_10">
         <NavbarLink 
-          :imgLeft="'/img/icon_layout.png'" 
-          :imgRight="'https://demos.creative-tim.com/material-kit-pro/assets/img/down-arrow-dark.svg'"
+          :iconLeft="'bi bi-columns-gap'" 
+          :iconRight="'bi bi-chevron-down'"
         >
           Pages
         </NavbarLink>
         <NavbarLink 
-          :imgLeft="'/img/icon_layout.png'" 
-          :imgRight="'https://demos.creative-tim.com/material-kit-pro/assets/img/down-arrow-dark.svg'"
+          :iconLeft="'bi bi-person-video2'" 
+          :iconRight="'bi bi-chevron-down'"
         >
           Account
         </NavbarLink>
         <NavbarLink 
-          :imgLeft="'/img/icon_layout.png'" 
-          :imgRight="'https://demos.creative-tim.com/material-kit-pro/assets/img/down-arrow-dark.svg'"
+          :iconLeft="'bi bi-view-list'" 
+          :iconRight="'bi bi-chevron-down'"
         >
           Sections
         </NavbarLink>
         <NavbarLink 
-          :imgLeft="'/img/icon_layout.png'" 
-          :imgRight="'https://demos.creative-tim.com/material-kit-pro/assets/img/down-arrow-dark.svg'"
+          :iconLeft="' bi bi-file-text'" 
+          :iconRight="'bi bi-chevron-down'"
         >
           Docs
         </NavbarLink>

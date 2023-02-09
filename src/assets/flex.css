@@ -18,6 +18,9 @@
 .flex_align_center {
   align-items: center;
 }
+.flex_align_stretch {
+  align-items: stretch;
+}
 .flex_wrap {
   flex-wrap: wrap;
 }
@@ -29,4 +32,19 @@
 }
 .gap_20 {
   gap: 20px
+}
+.gap_30 {
+  gap: 30px
+}
+.gap_50 {
+  gap: 50px
+}
+.gap_70 {
+  gap: 70px
+}
+.gap_100 {
+  gap: 100px
+}
+.gap_bt {
+  gap: 350px
 }

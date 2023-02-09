@@ -1,7 +1,7 @@
 <template>
   <button 
-    class="txt_white fontsz_a border_radius_5 padding_x_15 padding_y_10" 
-    :class="bgColor"
+    class="fontsz_a border_radius_5" 
+    :class="[bgColor, styleButton, txtColor]"
   >
     <i :class="iconLeft"></i>
     <slot/>
@@ -10,9 +10,17 @@
 </template>
 <script setup>
 defineProps({
+  txtColor: {
+    type: String,
+    default: 'txt_white'
+  },
   bgColor: {
     type: String,
     default: 'bg_primary',
+  },
+  styleButton: {
+    type: String,
+    default: 'padding_x_15 padding_y_10',
   },
   iconLeft: {
     type: String,

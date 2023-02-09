@@ -17,6 +17,15 @@ import ComplexSection from './components/ComplexSection.vue'
 import GuideLineSection from './components/GuideLineSection.vue'
 import Pr from './components/Pr.vue'
 import CX from './components/CX.vue'
+import MediaSection from './components/MediaSection.vue'
+import PriceSection from './components/PriceSection.vue'
+import PriceCard from './components/PriceCard.vue'
+import {priceCardList} from './components/data/data'
+import Payment from './components/Payment.vue'
+import ThankSection from './components/ThankSection.vue'
+import LastSection from './components/LastSection.vue'
+import { menuList } from './components/data/data'
+
 
 </script>
 
@@ -40,10 +49,19 @@ import CX from './components/CX.vue'
       <GuideLineSection class="margin_t_15"></GuideLineSection>
       <Pr></Pr>
       <CX></CX>
-
-
-    
+      <MediaSection class="padding_y_48 margin_y_48"></MediaSection>
+      <PriceSection>
+        
+      </PriceSection>
+      <PriceCard
+        class="margin_t_nagative"
+        :list="priceCardList"
+      >
+      </PriceCard>
+      <Payment></Payment>
+      <ThankSection></ThankSection>
     </CardWhite>
+    <LastSection :list="menuList"></LastSection>
   </div>
   
 

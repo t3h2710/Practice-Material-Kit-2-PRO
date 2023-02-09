@@ -1,17 +1,19 @@
 <template>
   <a href="" class="flex_row flex_align_center txt_lightgray">
-    <img id="imgL" class="icon" :src="imgLeft" @click="run" alt="">
+    <i class="icon" :class="iconLeft"></i>
+    <!-- <img id="imgL" class="icon" :src="imgLeft" @click="run" alt=""> -->
     <span class="padding_x_10"><slot/></span>
-    <img id="imgR" :src="imgRight" @click="walk" alt="">
+    <i :class="iconRight"></i>
+    <!-- <img id="imgR" :src="iconRight" @click="walk" alt=""> -->
   </a>
 </template>
 
 <script setup>
 defineProps({
-  imgLeft: {
+  iconLeft: {
     type: String,
   },
-  imgRight: {
+  iconRight: {
     type: String,
   },
 })
