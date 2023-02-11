@@ -11,6 +11,7 @@ import './assets/fontweight.css'
 import './assets/fontsz.css'
 import './assets/lineheight.css'
 import './assets/width.css'
+import './assets/variables.css'
 
 createApp(App).mount('#app')
 

@@ -1,3 +1,4 @@
+
 .txt_lightgray {
   color: #858099;
 }
@@ -5,10 +6,10 @@
   color: #344767
 }
 .txt_primary {
-  color: #e63673;
+  color: rgb(54, 157, 73);
 }
 .txt_darkpink {
-  color: #cc084b;
+  color: rgb(4, 66, 16);
 }
 .txt_white {
   color: white;

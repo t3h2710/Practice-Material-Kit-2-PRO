@@ -18,25 +18,25 @@ import CardInfoFS2 from './CardInfoFS2.vue';
       <div class="flex_row flex_wrap width_half">
         <CardInfoFS2
           class="width_half"
-          :img="'/img/icon_info.png'"
+          :icon="'bi bi-files'"
           :word1="'Full Documentation'"
           :word2="'Built by developers for developers. Check the foundation and you will find everything inside our documentation.'"
         />
         <CardInfoFS2
           class="width_half"
-          :img="'/img/icon_info.png'"
+          :icon="'bi bi-journal'"
           :word1="'Bootstrap 5 Ready'"
           :word2="'The world’s most popular front-end open source toolkit, featuring Sass variables and mixins.'"
         />
         <CardInfoFS2
           class="width_half"
-          :img="'/img/icon_info.png'"
+          :icon="'bi bi-cash-coin'"
           :word1="'Save Time & Money'"
           :word2="'Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System.'"
         />
         <CardInfoFS2
           class="width_half"
-          :img="'/img/icon_info.png'"
+          :icon="'bi bi-laptop'"
           :word1="'Fully Responsive'"
           :word2="'Regardless of the screen size, the website content will naturally fit the given resolution.'"
         />
@@ -51,7 +51,7 @@ import CardInfoFS2 from './CardInfoFS2.vue';
   content: '';
   display: block;
   border-radius: 0.5rem;
-  background-image: -webkit-linear-gradient(90deg,rgba(236, 64, 122, 0.8) 0, rgba(216, 27, 96, 0.8) 180%), url('https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+  background-image: -webkit-linear-gradient(90deg,rgba(4, 66, 16, 0.8) 0, rgba(54, 157, 73, 0.8) 180%), url('https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
   background-position: center;
   background-size: cover;
   position: absolute;

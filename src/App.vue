@@ -50,13 +50,8 @@ import { menuList } from './components/data/data'
       <Pr></Pr>
       <CX></CX>
       <MediaSection class="padding_y_48 margin_y_48"></MediaSection>
-      <PriceSection>
-        
-      </PriceSection>
-      <PriceCard
-        class="margin_t_nagative"
-        :list="priceCardList"
-      >
+      <PriceSection></PriceSection>
+      <PriceCard class="margin_t_nagative" :list="priceCardList">
       </PriceCard>
       <Payment></Payment>
       <ThankSection></ThankSection>

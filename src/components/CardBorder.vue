@@ -7,19 +7,22 @@
     }]"
   >
   <!-- <div v-if="(position == 'right' || position == 'left')"><i class="fontsz_3" :class="icon"></i><slot name="note"/></div> -->
-    <div v-if="(position == 'right')"><i class="fontsz_3 " :class="icon"></i><slot name="note"/></div>
+    <div v-if="(position == 'right')"><i class="fontsz_3 " :class="icon"></i>{{ note }}</div>
     <div>
-      <h4 class="fontsz_3 margin_b_10 line_height_1" :class="txtColor1"><slot name="title"/></h4>
-      <div class="margin_b_20" :class="txtCol" v-if="(position == 'bottom')"><i class="fontsz_1" :class="icon"></i><slot name="note"/></div>
-      <p class="fontsz_1 line_height_3 font_weight_1 margin_b_20" :class="txtColor2"><slot name="decription"/></p>
-      <span class="fontsz_1 font_weight_2" :class="txtColor3"><slot name="last"/></span>
+      <h4 class="title fontsz_2 margin_b_10 line_height_1">{{ title }}</h4>
+      <div class="icon_clock margin_b_20" v-if="(position == 'bottom')"><i class="fontsz_1" :class="icon"></i>{{ note }}</div>
+      <p class="decription fontsz_1 line_height_3 font_weight_1 margin_b_20">{{ decription }}</p>
+      <span v-if="last != null" class="last fontsz_1 font_weight_2" >{{ last }} <i :class="textIcon"></i></span>
+
+      <span class="lastIcon" v-if="(lastIcon != null)" v-for="item in lastIcon">
+        <i class="fontsz_1 font_weight_2 margin_r_5" :class="item"></i> 
+      </span>
     </div>
   </div>
 </template>
 
 <script setup>
 import { COMPONENT_CARD_COLORS } from '../enums'
-
 
 defineProps({
   bgColor: {
@@ -34,13 +37,13 @@ defineProps({
     type: Boolean,
     default: false,
   },
-  txtColor1: {
+  note: {
     type: String,
   },
-  txtColor2: {
+  title: {
     type: String,
   },
-  txtColor3: {
+  decription: {
     type: String,
   },
   icon: {
@@ -49,8 +52,14 @@ defineProps({
   position: {
     type: String,
   },
-  txtCol: {
+  last: {
     type: String,
+  },
+  textIcon: {
+    type: String,
+  },
+  lastIcon: {
+    type: Array,
   },
 })
 </script>

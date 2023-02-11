@@ -10,7 +10,9 @@
 .margin_auto {
   margin: auto;
 }
-
+.margin_r_5 {
+  margin-right: 5px;
+}
 .margin_b_10 {
   margin-bottom: 10px;
 }

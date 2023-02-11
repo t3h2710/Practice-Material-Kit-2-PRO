@@ -1,53 +1,57 @@
 <script setup>
 import CardBorder from './CardBorder.vue';
+import {menuinGuideLine} from './data/data'
 
 </script>
 <template>
-  <div class="max_width_card margin_auto">
+  <div class="guideLine max_width_card margin_auto">
     <div class="flex_row gap_20">
       <CardBorder
-        :bgColor="'main'"
-        :useShadow="false"
-        :icon="'bi bi-flag-fill txt_white'"
-        :position="'right'"
-        :txtColor1="'txt_white'"
-        :txtColor2="'txt_white'"
-        :txtColor3="'txt_white'"
+        v-for="item in menuinGuideLine"
+          :bgColor="item.bgColor"
+          :useShadow="item.useShadow"
+          :position="item.position"
+          :icon="item.icon"
+          :title="item.title"
+          :decription="item.decription"
+          :last="item.last"
+          :textIcon="item.textIcon"
       >
-        <template #title>Getting Started</template>
-        <template #decription>Check the possible ways of working with our product and the necessary files for building your own project.</template>
-        <template #last>Let's start <i class="bi bi-arrow-right"></i></template>
       </CardBorder>
-
-      <CardBorder
-        :bgColor="'sub'"
-        :useShadow="false"
-        :icon="'bi bi-app txt_primary'"
-        :position="'right'"
-        :txtColor1="'txt_darkgray'"
-        :txtColor2="'txt_lightgray'"
-        :txtColor3="'txt_primary'"
-      >
-        <template #title>Plugins</template>
-        <template #decription>Get inspiration and have an overview about the plugins that we used to create the Material Kit.</template>
-        <template #last>Read more <i class="bi bi-arrow-right"></i></template>
-      </CardBorder>
-
-      <CardBorder
-        :bgColor="'sub'"
-        :useShadow="false"
-        :icon="'bi bi-arrow-through-heart-fill txt_primary'"
-        :position="'right'"
-        :txtColor1="'txt_darkgray'"
-        :txtColor2="'txt_lightgray'"
-        :txtColor3="'txt_primary'"
-      >
-        <template #title>Utility Classes</template>
-        <template #decription>Material Kit is giving you a lot of pre-made elements. For those who want flexibility, we included many utility classes.</template>
-        <template #last>Read more <i class="bi bi-arrow-right"></i></template>
-      </CardBorder>
-      
     </div>
 
   </div>
 </template>
+<style>
+.guideLine .card_common:nth-child(2) .title,
+.guideLine .card_common:nth-child(3) .title {
+  color: var(--text_dark_gray)
+}
+.guideLine .card_common:nth-child(1) .title {
+  color: var(--text_w)
+
+}
+.guideLine .card_common:nth-child(2) .icon_clock,
+.guideLine .card_common:nth-child(3) .icon_clock {
+  color: var(--text_light_gray)
+}
+.guideLine .card_common:nth-child(1) .icon_clock {
+  color: var(--text_w)
+}
+
+.guideLine .card_common:nth-child(2) .decription,
+.guideLine .card_common:nth-child(3) .decription {
+  color: var(--text_light_gray)
+}
+.guideLine .card_common:nth-child(1) .decription {
+  color: var(--text_w)
+}
+
+.guideLine .card_common:nth-child(2) .last,
+.guideLine .card_common:nth-child(3) .last {
+  color: var(--text_primary_color)
+}
+.guideLine .card_common:nth-child(1) .last {
+  color: var(--text_w)
+}
+</style>

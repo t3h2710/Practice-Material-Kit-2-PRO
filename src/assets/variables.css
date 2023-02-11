@@ -1,0 +1,15 @@
+/* Background */
+:root {
+  --card-primary-color: #044210;
+  --card_light_color: #369d49;
+}
+
+/* Text */
+:root {
+  --text_primary_color: #044210;
+  --text_light_color: #369d49;
+  --text_light_gray: #858099;
+  --text_dark_gray: #344767;
+  --text_w: white;
+
+}

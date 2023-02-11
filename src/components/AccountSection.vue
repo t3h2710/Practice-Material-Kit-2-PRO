@@ -1,5 +1,6 @@
 <script setup>
 import Button from './Button.vue';
+import {accountSImg} from './data/data'
 </script>
 <template>
   <div class="account_page flex_justify_center flex">
@@ -9,31 +10,13 @@ import Button from './Button.vue';
         <span class="line_height_2 margin_b_20 fontsz_1 font_weight_1 txt_p">We created many examples for pages like Signup, Signin, Forgot Password, 2FA Authentification and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!</span>
         <div>
           <Button>VIEW PAGES</Button>
-          <Button
-            :bg-color="'bg_transparent'"
-          >
-            VIEW SIGNUP PAGES
-          </Button>
+          <Button :bg-color="'bg_transparent'">VIEW SIGNUP PAGES</Button>
         </div>
         
       </div>
       <div class="width_three_quarter flex_row right_col flex_align_center gap_20 margin_t_nagative1 padding_l_48">
-        <div class="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/sign-up-cover.jpg" alt="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/reset-cover.jpg" alt="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signup-illustration.jpg" alt="">
-        </div>
-        <div class="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/2fa.jpg" alt="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/comming-soon.jpg" alt="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/reset-basic.jpg" alt="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/error-500.jpg" alt="">
-        </div>
-        <div class="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/error-404.jpg" alt="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg" alt="">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/sign-up-cover.jpg" alt="">
-
+        <div v-for=" item in accountSImg">
+          <img v-for="item in item.img" :src="item" alt="">
         </div>
       </div>
       
